@@ -1,6 +1,5 @@
 /*=========================================================
-Template Name:Thrown-Construction Buliding HTML5 Template
-Author:  https://themeforest.net/user/website stock
+
 Description: Description
 Version: 1.0.0
 Text Domain: Thrown
@@ -1923,6 +1922,10 @@ ul.accordion ul li a span {
     background-repeat: no-repeat;
     padding: 104px 0 0px;
     position: relative;
+}
+
+.footer-wiget-log img{
+    width: 100%;
 }
 
 .footer-wiget-text h4 {
@@ -6282,6 +6285,8 @@ button.icons {
     line-height: 44px;
     text-transform: capitalize;
     font-weight: 700;
+    text-align: center;
+    margin: 2rem;
 }
 
 .project-details-area .desc-list {
