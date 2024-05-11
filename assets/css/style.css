@@ -3340,6 +3340,10 @@ ul.accordion ul li a span {
   display: block;
   width: auto;
 }
+.carousel-color{
+  color:rgb(175, 211, 211);
+  margin: 8px;
+}
 
 /*===============================================================
 <-- Thrown Blog Style Two Area Css-->
@@ -4637,14 +4641,14 @@ section.banner-section.style-five .owl-nav {
 
 .conversion-area {
   position: relative;
-  z-index: 1;
-  margin-bottom: -300px;
+  z-index: 0;
+  margin-bottom: 120px;
 }
 
 .conversion-area::before {
   position: absolute;
   content: "";
-  background: url(../images/resource/conversin-bg.png);
+  background: #000000;
   width: 1608px;
   height: 698px;
   left: 0;
@@ -4656,14 +4660,14 @@ section.banner-section.style-five .owl-nav {
 }
 
 .conversion-sub-title h4 {
-  color: #010212;
+  color: #0154f7;
   font-size: 16px;
   font-weight: 500;
   margin-bottom: 20px;
 }
 
 .conversion-main-title h2 {
-  color: #010212;
+  color: #fff;
   font-size: 35px;
   font-weight: 600;
   line-height: 48px;
@@ -4685,7 +4689,7 @@ section.banner-section.style-five .owl-nav {
 .conversion-list span {
   display: block;
   margin-bottom: 15px;
-  color: #010212;
+  color: #fff;
   font-family: Jost;
   font-size: 16px;
   font-style: normal;
@@ -5710,9 +5714,22 @@ span.process-bar.dark {
 /*===============================================================
 <-- Thrown Breatcome Area Css-->
 =================================================================*/
-
 .breatcome-area {
+  background: url(../images/gallery/g4.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 154px 0;
+}
+.breatcome-area2 {
   background: url(../images/contact.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  padding: 154px 0;
+}
+.breatcome-area1{
+  background: url(../images/con1.jpeg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
@@ -6165,7 +6182,7 @@ button.icons {
 }
 
 /*==================================================
- <-- Thrown project Details Area inner page Css-->
+ <-- Thrown Course-1 Area inner page Css-->
 ===================================================*/
 
 .project-details-area {
