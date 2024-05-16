@@ -1,5 +1,415 @@
+/* Extra Large Desktop : 2560 px */
+@media (min-width: 1600px) and (max-width: 2560px) {
+
+    .mobile-menu-area {
+        display: none;
+    }
+    
+    /* topbar area css */
+    .thrown-topbar-area::before {
+        width: 24%;
+    }
+    
+    .topbar-info {
+        margin-left: 36px;
+    }
+    
+    /* header area css */
+    
+    .thrown-header-area::before {
+        width: 24%;
+    }
+    
+    .thrown-menu {
+        text-align: right;
+        margin-right: -24px;
+    }
+    
+    .thrown-menu ul li {
+        margin-right: 28px;
+    }
+    
+    .thrown-search-button {
+        margin-left: 82px;
+    }
+    
+    .thrown-menu ul li:hover .home-menu {
+        left: 0;
+        right: 0;
+        margin: auto;
+    }
+    
+    /* slider area */
+    
+    .slider-content {
+        width: 73%;
+        left: 150px;
+    }
+    
+    .slider-shape {
+        left: -33px;
+    }
+    
+    .slider-shape2 {
+        top: 65%;
+    }
+    
+    .slider-box {
+        top: 60%;
+    }
+    
+    /* about area */
+    
+    .about-thumb {
+        top: 60px;
+    }
+    
+    .about-sub-title h4 {
+        margin-bottom: 0px;
+    }
+    
+    .about-main-title {
+        margin-bottom: 10px;
+    }
+    
+    .about-area.barfiller {
+        width: 100%;
+    }
+    
+    /* contact us area */
+    
+    .contact-us-area {
+        background-position: center;
+    }
+    
+    /* service area */
+    
+    .service-single-box {
+        padding: 67px 20px 64px;
+    }
+    
+    /* team area */
+    
+    .team-shape1 {
+        z-index: -1;
+    }
+    
+    .team-shape2 {
+        z-index: -1;
+    }
+    
+    /* counter area */
+    
+    .counter-shape {
+        left: 28%;
+    }
+    
+    /* testimonial area css */
+    
+    .testi-discription p {
+        margin: 8px 0 0;
+    }
+    
+    .testi-rating {
+        margin-top: -10px;
+    }
+    
+    /* blgo area css */
+    
+    .blog-single-box {
+        padding: 43px 26px 46px;
+    }
+    
+    /*===============================================================
+    <-- Thrown All Section Title Css-->
+    =================================================================*/
+    
+    .section-main-title h2 {
+        font-size: 44px;
+    }
+    
+    /*===============================================================
+    <-- Thrown Home Page two Css-->
+    =================================================================*/
+    
+    /* topbar area css */
+    
+    .topbar-info.style-two {
+        margin-left: 5px;
+    }
+    
+    /* header area css */
+    
+    .thrown-menu.style-two {
+        margin-left: -42px;
+    }
+    
+    .thrown-search-button.style-two {
+        margin-left: -50px;
+    }
+    
+    /* slider area */
+    
+    .slider-area {
+        background-position: center center;
+    }
+    
+    .slider-area.two {
+        background-position: center center;
+    }
+    
+    /* about area */
+    
+    .about-counter {
+        left: 15%;
+    }
+    
+    /* service area style two */
+    
+    .service-items-box-two {
+        display: inherit;
+    }
+    
+    .service-items-thumb-two img {
+        width: 100%;
+    }
+    
+    /* choose area */
+    
+    .choose-area {
+        padding: 115px 0 150px;
+    }
+    
+    .choose-content p {
+        width: 95%;
+    }
+    
+    .choose-contact {
+        width: 100%;
+        height: 152px;
+        padding: 50px 0px 0 65px;
+    }
+    
+    /* work process area */
+    
+    .work-process-single-box {
+        padding: 0px 40px 0;
+    }
+    
+    /* pricing area */
+    
+    .pricing-single-box {
+        padding: 50px 66px 48px;
+    }
+    
+    /* testimonial style two */
+    
+    .testimonial-shape {
+        left: 17px;
+    }
+    
+    /*===============================================================
+    <-- Thrown Home Page Three Css-->
+    =================================================================*/
+    
+    /* header style three */
+    
+    .thrown-header-area.style-three {
+        margin-bottom: 0;
+    }
+    
+    .thrown-header-area.style-three::before {
+        width: 100%;
+    }
+    
+    .thrown-menu.style-three {
+        margin-right: 0;
+    }
+    
+    /* slider area */
+    
+    section.banner-section.style-three .banner-carousel .slide-item {
+        height: 900px;
+    }
+    
+    /* about style three */
+    
+    .section-main-title.about3 h2 {
+        font-size: 42px;
+    }
+    
+    .about-shape-three {
+        bottom: -40px;
+    }
+    
+    /* sucsess area */
+    
+    .sucsees-single-box {
+        padding: 68px 13px 65px;
+    }
+    
+    .sucsess-counter {
+        width: 90px;
+        height: 90px;
+        padding: 21px 0 0;
+    }
+    
+    .sucsess-content {
+        margin-left: 10px;
+    }
+    
+    .sucsess-numbar h4 {
+        font-size: 20px;
+    }
+    
+    .sucsess-numbar span {
+        font-size: 20px;
+    }
+    
+    .sucsees-item-box {
+        padding: 66px 20px 50px;
+    }
+    
+    /* faq area */
+    
+    .faq-thumb img {
+        width: 100%;
+    }
+    
+    /* blog area */
+    
+    .blog-bottom-title {
+        margin-right: 82px;
+    }
+    
+    
+    /*===============================================================
+    <-- Thrown Home Page Four Css-->
+    =================================================================*/
+    
+    /* slider area */
+    
+    .slider-content.four {
+        left: 45%;
+    }
+    
+    .slider-four-thumb img {
+        width: 100%;
+        margin-top: 83px;
+        margin-left: -54px;
+    }
+    
+    /* project area */
+    
+    .project-items-thumb img {
+        width: 100%;
+    }
+    
+    /* blog area */
+    
+    .blog-title.style-two h4 a {
+        font-size: 21px;
+    }
+    
+    /*===============================================================
+    <-- Thrown Home Page Five Css-->
+    =================================================================*/
+    
+    /* header area */
+    
+    .thrown-menu.style-five {
+        margin-right: 24px;
+    }
+    
+    /* slider area */
+    
+    .slider-content.style-five {
+        width: 68%;
+    }
+    
+    .thrown-btn.slider.bottom {
+        right: 100px;
+    }
+    
+    /* about counter */
+    
+    .about-counter-five {
+        height: 350px;
+        padding: 15px 0 0;
+    }
+    
+    .counter-five-content {
+        margin-bottom: 33px;
+    }
+    
+    /* team area */
+    
+    .team-five-thumb img {
+        width: 100%;
+    }
+    
+    /*==================================================
+     <-- Thrown All Inner Page  Css-->
+    ===================================================*/
+    
+    /* service details */
+    
+    .service-details-thumb img {
+        width: 100%;
+    }
+    
+    /* blog standard area */
+    
+    .blog-standard-thumb img {
+        width: 100%;
+    }
+    
+    .widget-categories-box {
+        padding: 29px 8px 40px;
+    }
+    
+    /* blog details area */
+    
+    .blog-details-list ul li {
+        font-size: 16px;
+    }
+    
+    .blog-details-tag h6 {
+        margin-right: 10px;
+    }
+    
+    .blog-details-tag a {
+        margin-right: 5px;
+    }
+    
+    .blog-item-content h4 a {
+        font-size: 16px;
+    }
+    
+    .blog-comment-box.inner {
+        margin-left: 35px;
+    }
+    
+    /* project detals area */
+    
+    .projetct-details-image img {
+        width: 100%;
+    }
+    
+    /* team details area */
+    
+    .team-details-author-experience ul li .value {
+        font-size: 13px;
+    }
+    
+    
+    
+    
+    
+    }
+
 /* Normal desktop :1200px. */
-@media (min-width: 1200px) and (max-width: 1600px) {
+@media (min-width: 1200px) and (max-width: 1599px) {
 
 .mobile-menu-area {
     display: none;
